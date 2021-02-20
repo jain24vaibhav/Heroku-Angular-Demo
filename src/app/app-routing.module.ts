@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ApiComponent } from './api/api.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: 'display', component: ApiComponent }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
